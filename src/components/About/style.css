@@ -32,13 +32,13 @@
   margin-left: 80px;
 }
 .home .person img {
-  width: 100%;
+  width: 80%;
   /* border: 10px solid #07f5d1; */
 }
 .about .person img {
-  width: 80%;
+  width: 100%;
 }
-@media (min-width: 500px) {
+@media (min-width: 600px) {
   .about {
     flex-direction: row;
     /* flex-wrap: wrap; */

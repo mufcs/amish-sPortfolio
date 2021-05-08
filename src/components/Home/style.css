@@ -36,10 +36,15 @@
   font-weight: bold;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
   .home {
     flex-direction: row;
     justify-content: space-between;
+  }
+  .home .title .Brief__me .title {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
   .home .title {
     width: 40%;
@@ -47,14 +52,13 @@
     text-align: left;
     font-size: 25px;
   }
-}
-  /* .home .person img {
+  .home .person img {
     width: 100%;
   }
-} */
+}
 .text1 {
-  width: 100%;
-  height: 70vh;
+  width: auto;
+  height: auto;
   background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.05)), url("https://i.imgur.com/PzvRmLh.png");
   background-size: cover;
   display: flex;
@@ -62,7 +66,7 @@
   flex-flow: wrap;
   color: #07f5d1;
   font-weight: bold;
-  margin-left: 70px;;
+  margin-left: 60px;;
   }
   .one {
     font-size: 20px;
@@ -116,7 +120,7 @@
   .five {
     font-size: 40px;
     margin-top: 40px;
-    margin-right: 300px;
+    margin-right: 200px;
     color: #CB3F2B;
     opacity: 1;
     animation: move 20s infinite alternate ;

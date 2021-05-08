@@ -80,7 +80,7 @@
       background-size: cover;
       }
       .content_area {
-        width: 355px;
+        width: auto;
         transform-style: preserve-3d;
         perspective: 1000px;
       }

@@ -34,17 +34,17 @@
     flex-direction: row;
     justify-content: space-around;
   }
-  .work > div {
+  /* .work > div {
     margin: 20px;
-  }
+  } */
   .work .text2,
   .work .text3,
-  .work .text4{
+  .work .text4 {
     width: 50%;
     margin-top: 0;
     margin-right: 2px;
     text-align: left;
-    font-size: 20px;
+    font-size: auto;
     word-spacing: -.1em;  
   }
   .work .text2 img,
@@ -53,6 +53,18 @@
     width: 100%;
     border-style: solid;
     border-color: #07f5d1;
+  }
+
+  .work .text3 , 
+  .work .text4   {
+  margin-left: 30px;
+  }
+
+  .work .text2 p,
+  .work .text3 p,
+  .work .text4 p {
+    margin-left: 4px;
+    color: #BD092F;
   }
 
   .work .text3 p,
@@ -67,63 +79,68 @@
   background: url("https://i.imgur.com/si2I82K.png");
   background-size: cover;
   }
-  .text3 {
-    width: 60%;
-    height: 40vh;
-    background: url("https://i.imgur.com/xvCCHIO.png");
-    background-size: cover;
+
+.text3 {
+  width: 60%;
+  height: 40vh;
+  background: url("https://i.imgur.com/xvCCHIO.png");
+  background-size: cover;
     }
-    .text4 {
-      width: 60%;
-      height: 40vh;
-      background: url("https://i.imgur.com/qw3psLj.png");
-      background-size: cover;
-      }
-      .content_area {
-        width: auto;
-        transform-style: preserve-3d;
-        perspective: 1000px;
-      }
-      img_text h1,
-               h2 {
-        margin: 0;
-        font-family: lobster;
-        letter-spacing: 2px;
-        font-size: 30px;
-      }
-      .img_text {
-        position: relative;
-        transform-style: preserve-3D;
-        transform-origin: 0 0;
-        animation-duration: 1.5s;
-        animation-timing-function: linear;
-        animation-fill-mode: forwards;
-        transition: opacity .1s;
-        opacity: 0;
-        padding: 20px;
-        background: #07f5d1;
-        text-align: center;
-        color: #262626;
-        height: 40vh;
-      }
-      .content_area:hover .img_text {
-        opacity: 1;
-        animation-name: animate;
-      }
-      @keyframes animate {
-        0%{
-            transform: rotateX(-270deg);
-        }
-        60%{
-            transform: rotateX(-380deg);
-        }
-        80%{
-            transform: rotateX(-370deg);
-        }
-        100%{
-            transform: rotateX(-360deg);
-        }
-      }
+.text4 {
+  width: 60%;
+  height: 40vh;
+  background: url("https://i.imgur.com/qw3psLj.png");
+  background-size: cover;
+}
+
+.content_area {
+  width: auto;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+img_text h1,
+         h2 {
+  margin: 0;
+  font-family: lobster;
+  letter-spacing: 2px;
+  font-size: auto;
+}
+.img_text {
+  position: relative;
+  transform-style: preserve-3D;
+  transform-origin: 0 0;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  transition: opacity .1s;
+  opacity: 0;
+  padding: 20px;
+  background: #07f5d1;
+  text-align: center;
+  color: #262626;
+  height: 40vh;
+}
+
+.content_area:hover .img_text {
+  opacity: 1;
+  animation-name: animate;
+}
+@keyframes animate {
+    0%{
+       transform: rotateX(-270deg);
+    }
+    60%{
+       transform: rotateX(-380deg);
+    }
+    80%{
+       transform: rotateX(-370deg);
+    }
+    100%{
+        transform: rotateX(-360deg);
+    }
+}
+
 
 
     

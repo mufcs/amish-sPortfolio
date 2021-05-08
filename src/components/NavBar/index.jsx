@@ -41,13 +41,8 @@ const NavBar = () => {
               }}
             />
           </Link>
+          
           </div>
-          {/* <div className="trance"> 
-            <audio controls>
-           <source src="uplifting.mp3" type="audio/mpeg"/>
-            Your browser does not support the audio element.
-            </audio>
-          </div> */}
         <div className="list-wrapper">
           <img
             src="https://i.imgur.com/EUDFEJq.png"

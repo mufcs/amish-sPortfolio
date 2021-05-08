@@ -30,7 +30,7 @@ const Work = () => {
               <div class="content_area">
                 <div class="img_text">
                   <h1>Slack Me</h1>
-                  <p>SlackMe is a real time responsive web communication platform, Which is inspired by platform called Slack.</p>
+                  <p>SlackMe is a real time responsive web communication platform, Which is inspired by Slack.</p>
                   <h2>Tech stack</h2>
                   <p>ReactJs, Firebase, Material-UI</p>
                   <a href="https://slameme-portfolio.web.app/" target="_blank" class="card__link">View Project</a> 

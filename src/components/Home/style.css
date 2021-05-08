@@ -144,7 +144,7 @@
   .seven {
     font-size: 40px;
     margin-top: 80px;
-    margin-left: -60px;
+    margin-left: 50px;
     color: #0461F9;
     opacity: 1;
     animation: fade 9s infinite alternate;

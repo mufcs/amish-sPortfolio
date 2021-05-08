@@ -1,0 +1,67 @@
+.about {
+  flex-grow: 1;
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 60px;
+  /* margin-left: ; */
+}
+
+.about .abt_me {
+  /* height: 60%; */
+  width: 50%;
+  font-size: 1.01vw;
+  text-align: justify;
+  font-family: "Righteous", cursive;
+}
+.about .abt_me h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 4rem;
+}
+.about .abt_me p {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+.about .person {
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.home .person img {
+  width: 100%;
+  /* border: 10px solid #07f5d1; */
+}
+.about .person img {
+  width: 80%;
+}
+@media (min-width: 500px) {
+  .about {
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+  }
+  .about .abt_me {
+    /* height: 40%; */
+    width: 55%;
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 25px;
+  }
+ 
+  .about .person {
+    width: 45%;
+    margin-top: 0;
+    /* text-align: justify; */
+    /* font-size: 25px; */
+  }
+  .about .person img {
+    width: 80%;
+    margin-right: -50px;
+    /* margin-bottom: 350px; */
+    border-radius: 50%;
+  }
+}

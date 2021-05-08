@@ -1,0 +1,129 @@
+.head {
+  margin-top: 30px;   
+  }
+  .head h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 4rem;
+  }
+  .head p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+.work{
+  flex-grow: 1;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 45px;
+}
+.head .work .content_area .img_text h1 {
+  font-size: 2.5rem;
+  font-family: lobster;
+}
+/* .head .work .content_area .img_text p {
+  font-size: 2.5rem;
+} */
+
+@media (min-width: 1280px) {
+  .work {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .work > div {
+    margin: 20px;
+  }
+  .work .text2,
+  .work .text3,
+  .work .text4{
+    width: 50%;
+    margin-top: 0;
+    margin-right: 2px;
+    text-align: left;
+    font-size: 20px;
+    word-spacing: -.1em;  
+  }
+  .work .text2 img,
+  .work .text3 img, 
+  .work .text4 img  {
+    width: 100%;
+    border-style: solid;
+    border-color: #07f5d1;
+  }
+
+  .work .text3 p,
+  .work .text4 p {
+    margin-left: 4px;
+  }
+}
+
+.text2 {
+  width: 60%;
+  height: 40vh;
+  background: url("https://i.imgur.com/si2I82K.png");
+  background-size: cover;
+  }
+  .text3 {
+    width: 60%;
+    height: 40vh;
+    background: url("https://i.imgur.com/xvCCHIO.png");
+    background-size: cover;
+    }
+    .text4 {
+      width: 60%;
+      height: 40vh;
+      background: url("https://i.imgur.com/qw3psLj.png");
+      background-size: cover;
+      }
+      .content_area {
+        width: 355px;
+        transform-style: preserve-3d;
+        perspective: 1000px;
+      }
+      img_text h1,
+               h2 {
+        margin: 0;
+        font-family: lobster;
+        letter-spacing: 2px;
+        font-size: 30px;
+      }
+      .img_text {
+        position: relative;
+        transform-style: preserve-3D;
+        transform-origin: 0 0;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        transition: opacity .1s;
+        opacity: 0;
+        padding: 20px;
+        background: #07f5d1;
+        text-align: center;
+        color: #262626;
+        height: 40vh;
+      }
+      .content_area:hover .img_text {
+        opacity: 1;
+        animation-name: animate;
+      }
+      @keyframes animate {
+        0%{
+            transform: rotateX(-270deg);
+        }
+        60%{
+            transform: rotateX(-380deg);
+        }
+        80%{
+            transform: rotateX(-370deg);
+        }
+        100%{
+            transform: rotateX(-360deg);
+        }
+      }
+
+
+    

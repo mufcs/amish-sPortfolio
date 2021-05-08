@@ -1,0 +1,59 @@
+footer{
+  width: 100%;
+  padding: 10px 0;
+  /* margin-bottom: 400px; */
+}
+footer .links__socialmedia:not(:last-child) {
+  margin-right: 10px;
+}
+button {
+  background: #07f5d1;
+  color: #7722AB;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  
+  /* text-align: center; */
+}
+
+.links__socialmedia {
+  width: 20%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  max-width: 160px;
+}
+.LinkedIn__icon {
+  background: #07f5d1;
+  width: 35px;
+  /* padding: 4px; */
+}
+.Git__icon {
+  background: #07f5d1;
+  width: 35px;
+  /* padding: 4px; */
+}
+
+.LinkedIn__icon:hover,
+.Git__icon:hover,
+.Resume__icon:hover {
+  animation: bounce 1s linear;
+}
+@keyframes bounce {
+  20%,50%,80%,to {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  70% {
+    transform: translateY(-15px);
+  }
+  90% {
+    transform: translateY(-4px);
+  }
+}
+

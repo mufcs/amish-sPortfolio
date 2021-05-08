@@ -1,0 +1,140 @@
+.myskills {
+  flex-grow: 1;
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.myskills .My_skills {
+  margin-bottom: 120px;
+}
+
+.myskills .My_skills h1 {
+  font-size: 4rem;
+}
+.myskills .My_skills p {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+.myskills .skills {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.myskills .skills .content {
+  width: 80%;
+}
+ /* .percentage {
+  margin-top: 20px;
+} */
+
+@media (min-width: 500px) {
+  .myskills{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .myskills .My_skills{
+    width: 50%;
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 25px;
+  }
+  .myskills .skills {
+    width: 45%;
+    margin-top: 0;
+    text-align: justify;
+    font-size: 25px;
+  }
+  .myskills .My_skills h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+  }
+  .myskills .skills .content {
+    width: 150%;
+    margin-left: 120px;
+    margin-bottom: 200px;
+    margin-top: 80px;
+  }
+}
+
+.skills {
+  flex-grow: 1;
+}
+.skills{
+  width: 100%;
+  margin-left: -35px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+.content{
+  width: 550px;
+  margin-left: 1px;
+  color: white;
+  text-align: justify;
+  list-style: none;
+  box-sizing: border-box;
+  margin-right: 25px;
+  font-size: 1.01vw;
+}
+.content li{
+  margin: 10px 0;
+}
+h6{
+  font-size: 1.01vw;
+  font-weight: bold;
+  font-size: 18px;
+  color: #07f5d1;
+}
+.bar{
+  background: #AEAFB2;
+  display: block;
+  height: 2px;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span {
+  height: 2px;
+  float: left;
+  background: #07f5d1;
+}
+.html{
+  width: 70%;
+  animation: html 3s;
+}
+.css{
+  width: 70%;
+  animation: html 4s;
+}
+.jquery{
+  width: 50%;
+  animation: html 5s;
+}
+.react{
+  width: 85%;
+  animation: html 3s;
+}
+.node{
+  width: 55%;
+  /* color: #AEAFB2;  */
+  animation: html 4s;
+}
+.mongo{
+  width: 70%;
+  animation: html 3s;
+}
+.postgresql{
+  width: 40%;
+  animation: html 4s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+}
